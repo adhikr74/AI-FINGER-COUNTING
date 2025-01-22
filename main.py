@@ -4,9 +4,9 @@ import mediapipe.python.solutions.drawing_utils as drawing
 
 # Initialize the Hands module
 hands = mpHands.Hands(
-    static_image_mode=False,  # Corrected typo here
-    max_num_hands=2,          # Maximum number of hands to detect
-    min_detection_confidence=0.5  # Confidence threshold for detection
+    static_image_mode=False,  
+    max_num_hands=2,          
+    min_detection_confidence=0.5  
 )
 #Get Hand Landmarks
 def getHandlandMarks(img, draw):
